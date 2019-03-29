@@ -7,7 +7,7 @@ function Footer() {
         <div>
             <footer className="footer"></footer>
             <div className="footerFoot">
-                <section className="footBrand">Clickster<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2000px-React-icon.svg.png" alt="React Icon" style={{filter: "grayscale(50%)"}}/></section>
+                <section className="footBrand">Clickster <img src="./favicon.png" alt="Clickster Icon" style={{opacity: 0.5}}/></section>
             </div>
         </div>
     );
