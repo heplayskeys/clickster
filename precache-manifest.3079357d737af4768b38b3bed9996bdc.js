@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/clickster/static/js/runtime~main.9928b7d5.js"
   },
   {
-    "revision": "4bcc59967ba6ce1f8e1d",
-    "url": "/clickster/static/js/main.2fe94a62.chunk.js"
+    "revision": "d27a9369fdf42d8f4329",
+    "url": "/clickster/static/js/main.97e569df.chunk.js"
   },
   {
     "revision": "5b8bbdbb75b8b44c442b",
     "url": "/clickster/static/js/2.6fcf23cc.chunk.js"
   },
   {
-    "revision": "4bcc59967ba6ce1f8e1d",
+    "revision": "d27a9369fdf42d8f4329",
     "url": "/clickster/static/css/main.4cb51d58.chunk.css"
   },
   {
-    "revision": "d8de7023311231f245dd082d3df40c91",
+    "revision": "aecbef61d5be832112acdf3f739d8959",
     "url": "/clickster/index.html"
   }
 ];
