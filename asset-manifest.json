@@ -1,13 +1,13 @@
 {
   "main.css": "/clickster/static/css/main.4cb51d58.chunk.css",
-  "main.js": "/clickster/static/js/main.eb9f3519.chunk.js",
-  "main.js.map": "/clickster/static/js/main.eb9f3519.chunk.js.map",
+  "main.js": "/clickster/static/js/main.2fe94a62.chunk.js",
+  "main.js.map": "/clickster/static/js/main.2fe94a62.chunk.js.map",
   "runtime~main.js": "/clickster/static/js/runtime~main.9928b7d5.js",
   "runtime~main.js.map": "/clickster/static/js/runtime~main.9928b7d5.js.map",
   "static/js/2.6fcf23cc.chunk.js": "/clickster/static/js/2.6fcf23cc.chunk.js",
   "static/js/2.6fcf23cc.chunk.js.map": "/clickster/static/js/2.6fcf23cc.chunk.js.map",
   "index.html": "/clickster/index.html",
-  "precache-manifest.a9b75dfbde7ca810ed350e09c13fa39b.js": "/clickster/precache-manifest.a9b75dfbde7ca810ed350e09c13fa39b.js",
+  "precache-manifest.1e02b8d3e177f1e635c3d5ee769cd3b2.js": "/clickster/precache-manifest.1e02b8d3e177f1e635c3d5ee769cd3b2.js",
   "service-worker.js": "/clickster/service-worker.js",
   "static/css/main.4cb51d58.chunk.css.map": "/clickster/static/css/main.4cb51d58.chunk.css.map"
 }
