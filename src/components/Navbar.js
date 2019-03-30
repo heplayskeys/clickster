@@ -20,7 +20,7 @@ function Navbar(props) {
         break;
 
         case false:
-            status = <li className="feedback text-center" style={{color: "darkred", fontWeight: "bold"}}>Game Over! Try Again!</li>
+            status = <li className="feedback text-center" style={{color: "darkred", fontWeight: "bold"}}>Game Over! {window.screen.width > 768 ? "Click an Image to " : "Touch an Image to "}Try Again!</li>
         break;
 
         default:
