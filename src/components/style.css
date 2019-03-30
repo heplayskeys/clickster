@@ -148,3 +148,53 @@ nav {
     padding-top: 15px;
     padding-left: 15px;
 }
+
+@media screen and (max-width: 768px) {
+    p.lead {
+        font-size: inherit;
+    }
+
+    .navbar li {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+
+    
+    .navbar li:last-child{
+        font-size: 1.25rem;
+    }
+
+    .navbar li:nth-child(2) {
+        font-size: inherit;
+    }
+    
+    .header h1 {
+        display: none;
+    }
+
+    .header {
+        min-height: 285px;
+        margin-top: 185px;
+    }
+
+    .jumbotron {
+        padding: 0;
+        height: inherit;
+        width: 85%;
+    }
+
+    .tileSet {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .tileSet li {
+    margin: 10px 0 0 0;
+    width: 33%;
+    }
+
+    .gameTile img {
+        height: 175px;
+    }
+}

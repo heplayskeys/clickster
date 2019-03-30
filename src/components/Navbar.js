@@ -24,7 +24,7 @@ function Navbar(props) {
         break;
 
         default:
-            status = <li className="feedback text-center">Click an Image to Get Started!</li>
+            status = <li className="feedback text-center">{window.screen.width > 768 ? "Click an Image to Get Started!" : "Touch an Image to Start!"}</li>
         break;
     }
 
