@@ -20,7 +20,7 @@ function Navbar(props) {
         break;
 
         case false:
-            status = <li className="feedback text-center" style={{color: "darkred", fontWeight: "bold"}}>Game Over! {window.screen.width > 768 ? "Click an Image to " : "Touch an Image to "}Try Again!</li>
+        status = <li className="feedback text-center" style={{color: "#fff", fontWeight: "bold"}}>{!props.isPlaying ? "Game Over!" : window.screen.width > 768 ? "Click an Image to Try Again!" : "Touch an Image to Try Again!"}</li>
         break;
 
         default:
@@ -30,7 +30,7 @@ function Navbar(props) {
 
     return (
         <div>
-            <nav className="navbar navbar-light">
+            <nav className="navbar navbar-light" style={props.correct === false ? {background: "#dc3545"} : null}>
             <ul type="none">
                 <li className="brand h1 text-white text-center"><a href="http://heplayskeys.github.io/click-apes">Clickster</a></li>
                 {status}

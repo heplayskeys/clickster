@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-function Header() {
+function Header(props) {
 
     if (window.screen.width <= 480) {
 
@@ -17,7 +17,7 @@ function Header() {
                     </div>
                 </div>
             </header>
-            <div className="headerFoot"></div>
+            <div className="headerFoot" style={props.correct === false ? {background: "#dc3545"} : null}></div>
         </div>
     );
 }
