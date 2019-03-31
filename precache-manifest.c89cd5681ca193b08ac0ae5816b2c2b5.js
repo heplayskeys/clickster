@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/clickster/static/js/runtime~main.9928b7d5.js"
   },
   {
-    "revision": "6fa9d886b8823a89b3bb",
+    "revision": "a5378a81370097c5cbd5",
     "url": "/clickster/static/js/main.2bdae942.chunk.js"
   },
   {
@@ -12,11 +12,11 @@ self.__precacheManifest = [
     "url": "/clickster/static/js/2.6fcf23cc.chunk.js"
   },
   {
-    "revision": "6fa9d886b8823a89b3bb",
-    "url": "/clickster/static/css/main.3985971b.chunk.css"
+    "revision": "a5378a81370097c5cbd5",
+    "url": "/clickster/static/css/main.2baaf5f9.chunk.css"
   },
   {
-    "revision": "195f1b4fdb533abeea244e0af4ea4234",
+    "revision": "9ac462599e251d40030f4c5ae8187381",
     "url": "/clickster/index.html"
   }
 ];
