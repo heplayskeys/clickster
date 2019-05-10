@@ -95,7 +95,7 @@ class App extends React.Component {
 
   render() {
 
-    let tileSet = this.state.tiles.map((tile) => <GameBoard className="animated" key={tile.id} {...tile} handleClick={this.handleClick} />)
+    let tileSet = this.state.tiles.map((tile) => <GameBoard className="animated" key={tile.id} {...tile} handleClick={this.handleClick} gameWin={this.state.win} />)
 
     return (
       <div style={{background: 'url("https://www.toptal.com/designers/subtlepatterns/patterns/debut_light.png")'}}>

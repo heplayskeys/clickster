@@ -10,8 +10,8 @@ function Navbar(props) {
         case true:
             if (props.gameStatus) {
                 status = <li className="feedback text-center" style={{color: "darkgreen", fontWeight: "bolder", textShadow: "0 8px 6px -6px #000000"}}>
-                    <p>You did it! Great Job!</p>
-                    <p style={{fontSize: "12px"}}>Click an Image to Play Again.</p>
+                    <p className="winner animated pulse infinite">You did it! Great Job!</p>
+                    <p style={{fontSize: "12px"}}>{window.screen.width > 768 ? "Click an Image to Play Again." : "Touch an Image to Play Again."}</p>
                 </li>
             }
             else {

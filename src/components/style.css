@@ -149,6 +149,10 @@ nav {
     padding-left: 15px;
 }
 
+.gameWin {
+    opacity: 0.35;
+}
+
 @media screen and (max-width: 768px) {
     p.lead {
         font-size: inherit;
@@ -195,5 +199,9 @@ nav {
 
     .gameTile img {
         height: 175px;
+    }
+
+    .winner {
+        font-size: 1.45rem;
     }
 }
